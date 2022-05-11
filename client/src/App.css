@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+
+.nav{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  background-color: #21222A;
+  font-size: 20px;  
+  height: 50px;
+}
+
+.nav-image {
+  width: 50px;
+  margin-left: 30px;
+}
+
+.nav-items{
+    list-style: none;
+    display:flex;
+}
+
+.nav-items > li {
+  padding: 10px;
+  background-color:cornflowerblue;
+  margin-right: 10px;
+}
+
+.nav-items > a {
+  padding: 10px;
+  background-color:primary;
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.kyc-textfield{ 
+    width: 450px;
+}
+
+.first-section{ 
+  height:500px;
+  /* background-color:burlywood; */
+  text-align:center;
+  justify-content: center; 
+}
+
+.first-section-left{ 
+  background-color:cornsilk;
+}
+
+.first-section-right{ 
+  background-color:wheat;
+  padding-top: 100px;
+}
+
+.second-section{
+  background-color:skyblue;
+  height:500px;
+  width: 500px;  
+  margin:auto;
+  padding: 10px;
+  text-align:center;
+}
+
+.second-section-left{ 
+  background-color:burlywood;
+}
+
+.second-section-right{ 
+  background-color: yellow;
+}
+
+
+.third-section{ 
+  /* background-color:burlywood; */
+  margin:auto;
+  padding: 10px;
+  text-align:center;
+  justify-content: center; 
+}
+
+
+.benefits-cards{
+  padding-top: 25px;
+  height: 300px;
+}
+
+
